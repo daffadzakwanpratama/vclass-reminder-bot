@@ -1,0 +1,42 @@
+# Maven
+target/
+.maven/
+*.class
+*.jar
+
+# Environment / Secrets — STRICT NEVER COMMIT
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.cer
+*.crt
+*.pfx
+secrets/
+
+# Database
+reminder.db
+*.db
+*.db-shm
+*.db-wal
+*.sqlite
+*.sqlite3
+
+# IDE & OS
+.idea/
+*.iml
+.vscode/
+*.classpath
+*.project
+.settings/
+.DS_Store
+Thumbs.db
+
+# Logs & Dumps
+logs/
+*.log
+*.dump
+*.stackdump
+
